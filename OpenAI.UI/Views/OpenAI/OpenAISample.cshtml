@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "OpenAISample";
+}
+
+<form method="post" asp-controller="OpenAI" asp-action="OpenAISamplex">
+
+    <div>
+        <label for="TextBox">Aramak istediğiniz Kelimeyi yazın:</label>
+        <input type="text" id="TextBox" name="prompt" />
+    </div>
+    <br />
+    <br />
+    <h1>Hangi Programlama dili ile cevap istersiniz?</h1>
+    <br />
+    <br />
+
+    <label>
+        <input type="checkbox" name="Programming" value="Java"> Java
+    </label>
+    <br />
+    <label>
+        <input type="checkbox" name="Programming" value="C#"> C#
+    </label>
+    <br />
+
+    <label>
+        <input type="checkbox" name="Programming" value="Python"> Python
+    </label>
+    <br />
+
+    <input type="submit" value="Kaydet" />
+</form>

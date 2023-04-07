@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "OpenAIImageSample";
+}
+<!DOCTYPE html>
+<head>
+  
+</head>
+
+<form method="post" asp-action="OpenAIImageSamplex" asp-controller="OpenAI" enctype="multipart/form-data">
+    <div>
+        <label for="TextBox">Metin Kutusu:</label>
+        <input type="text" id="TextBox" name="prompt" />
+    </div>
+   
+   
+    <button type="submit">Kaydet</button>
+    
+</form>
+

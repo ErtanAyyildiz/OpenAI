@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI.Business", "OpenAI.Business\OpenAI.Business.csproj", "{2FF722C0-9F2A-43AA-82C7-644F0B1C53F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI.DataAccess", "OpenAI.DataAccess\OpenAI.DataAccess.csproj", "{BA2E0082-D43B-493A-A87A-657A8E1AC731}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI.Entity", "OpenAI.Entity\OpenAI.Entity.csproj", "{FC9C1546-4B71-4964-93E5-C2B22E64E676}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI.UI", "OpenAI.UI\OpenAI.UI.csproj", "{FFFD28E7-2FDF-4E9D-8C08-993ECCC29B14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FF722C0-9F2A-43AA-82C7-644F0B1C53F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF722C0-9F2A-43AA-82C7-644F0B1C53F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF722C0-9F2A-43AA-82C7-644F0B1C53F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF722C0-9F2A-43AA-82C7-644F0B1C53F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2E0082-D43B-493A-A87A-657A8E1AC731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2E0082-D43B-493A-A87A-657A8E1AC731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2E0082-D43B-493A-A87A-657A8E1AC731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2E0082-D43B-493A-A87A-657A8E1AC731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9C1546-4B71-4964-93E5-C2B22E64E676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9C1546-4B71-4964-93E5-C2B22E64E676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9C1546-4B71-4964-93E5-C2B22E64E676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9C1546-4B71-4964-93E5-C2B22E64E676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFFD28E7-2FDF-4E9D-8C08-993ECCC29B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFD28E7-2FDF-4E9D-8C08-993ECCC29B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFD28E7-2FDF-4E9D-8C08-993ECCC29B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFD28E7-2FDF-4E9D-8C08-993ECCC29B14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96693331-6DE7-46E2-944E-5B037A79CE42}
+	EndGlobalSection
+EndGlobal
