@@ -1,0 +1,46 @@
+OPEN AI
+
+Description
+This project demonstrates the use of C# programming language to implement an application that leverages various design patterns and OpenAI libraries to generate images and provide language-based responses to user questions. The key features of this project include:
+
+Implementation of an IoC (Inversion of Control) layer: The application follows the IoC principle, allowing for loosely coupled and easily testable components.
+
+Repository Pattern: The project employs the Repository Pattern to abstract data access and provide a consistent interface for interacting with the underlying data store. This improves maintainability and separation of concerns.
+
+Unit of Work Pattern: The Unit of Work Pattern is used to manage database transactions and ensure data consistency across multiple repository operations.
+
+Image Generation with OpenAI: The project utilizes OpenAI libraries to generate images based on user input or other relevant data. This feature enables the application to create custom images programmatically.
+
+Language-based Question-Answering: The project incorporates OpenAI's language models to process user questions and generate responses in the programming language of your choice. This capability enhances the interactivity and usefulness of the application.
+
+Installation
+1. Clone the repository:
+git clone https://github.com/ErtanAyyildiz/OpenAI
+
+2. Build the solution using your preferred IDE or the command line:
+dotnet build
+
+3. Restore the NuGet packages:
+dotnet restore
+
+4. Run the application:
+dotnet run
+
+
+Contributing
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature/bug fix.
+
+3. Make your changes and commit them.
+
+4. Push your changes to your forked repository.
+
+5. Submit a pull request to the original repository, explaining your changes in detail.
+
+
+
+Contact
+ertanayyildiz@outlook.com
